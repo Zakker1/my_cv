@@ -1,109 +1,203 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerkeblan Sultangaziev - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Pacifico&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>My CV</title>
+    <script src="js/script.js"></script>
   </head>
   <body>
-    <div class="nav">
-      <div class="container">
-      <a href="#about">about</a>
-      <a href="#summary">summary</a>
-      <a href="#experience">experience</a>
-      <a href="#projects">projects</a>
-      <a href="#education">education</a>
-      <a href="#language">language</a>
-      <a href="#info">info</a>
-      </div>
-    </div>
-    <main class="resume">
-      <div class="container">
-        <div class="photo"><img src="img/photo.png" alt="photo"></div>
-        <div class="about">
-          <h3 id="about">Yerkeblan Sultangaziev</h3>
-          <p id="contact">
-            Astana, Kazakhstan | +7 (775) 990-9502 | sultangazieverkesh@email.com
-            <br />
-            GitHub: github.com/zakkeri01 | LinkedIn: linkedin.com/in/erkeblan
-          </p>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-container">
+          <a href="#about">About</a>
+          <a href="#summary">Summary</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#language">Language</a>
+          <a href="#info">Info</a>
         </div>
-        <div class="summary">
-          <h4 id="summary">Professional Summary</h4>
-          <p>
+      </nav>
+
+      <header class="header">
+        <div class="photo-container">
+          <img src="img/photo.png" alt="Yerkeblan Sultangaziev" class="photo" />
+        </div>
+        <h1 class="name" id="about">Yerkeblan Sultangaziev</h1>
+        <div class="contact-info">
+          Astana, Kazakhstan | +7 (775) 990-9502 |
+          sultangazieverkesh@email.com<br />
+          <a href="https://github.com/zakkeri01" target="_blank">GitHub</a> |
+          <a
+            href="https://www.linkedin.com/in/%D0%B5%D1%80%D0%BA%D0%B5%D0%B1%D0%BB%D0%B0%D0%BD-%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD%D0%B3%D0%B0%D0%B7%D0%B8%D0%B5%D0%B2-739a17389/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="section" id="summary">
+          <h2 class="section-title">Professional Summary</h2>
+          <div class="section-content">
             Motivated Frontend Developer with a strong foundation in HTML, CSS,
-            JavaScript (ES6+), and React. <br> Experienced in developing responsive and
-            user-friendly web interfaces. <br> Proficient in creating and maintaining
-            distributed web systems using Node.js, Redis, and Python. Eager to
-            contribute to innovative projects and continuously improve technical
-            and problem-solving skills. <br> Open to remote opportunities and
-            collaborative work environments.
-          </p>
-        </div>
-        <div class="experience">
-          <h4 id="experience">Professional Experience</h4>
-          <p>
-            IT Specialist Astana Medical University JSC — Astana, Kazakhstan Jan
-            2023 – Present Maintain and troubleshoot computer systems and network
-            infrastructure of the university. <br> Deploy and configure Zabbix for
-            monitoring performance and availability of IT resources. <br> Provide
-            software and hardware support for staff and departments. Install and
-            test communication lines, ensure stable network operation. <br> Prepare and
-            maintain presentation and conference equipment. <br> Assist users with
-            setup, network issues, and technical consultations. <br> Key Achievements:
-            Deployed Zabbix monitoring system for over 100 network devices. <br>
-            Improved network uptime and reduced troubleshooting time by 30%. <br>
-            Assisted in automation of task tracking and maintenance reporting.
-          </p>
-        </div>
-        <div class="projects">
-          <h4 id="projects">Projects</h4>
-          <p>
-            Distributed Image Processing System Master’s Research Project (2025)
-            Designed and implemented a web-based distributed image processing
-            system for uploading, analyzing, and processing images using a
-            microservice architecture. <br> Built frontend with React + Vite, backend
-            with Node.js (Express), and background workers in Python connected
-            through Redis. <br> Implemented real-time task status updates with
-            WebSocket and automatic PDF report generation. <br> Integrated PostgreSQL
-            database for user data, job history, and file management. <br>
-            Technologies: React, Node.js, Redis, Python (Pillow), PostgreSQL,
-            Docker, PDFKit
-          </p>
-    </main>
-    <footer class="education">
-      <div class="container">
-        <h4 id="education">Education</h4>
-        <p>
-          Master’s Degree in Computer Science Kazakh University of Technology
-          and Business named after K. Kulazhanov — Astana, <br> Kazakhstan 2023 –
-          2025 Bachelor’s Degree in Information Systems Astana IT College —
-          Astana, Kazakhstan 2017 – 2021
-        </p>
-      </div>
-      <div class="language">
-          <ol id="language" class="language-list">
+            JavaScript (ES6+), and React. Experienced in developing responsive
+            and user-friendly web interfaces. Proficient in creating and
+            maintaining distributed web systems using Node.js, Redis, and
+            Python. Eager to contribute to innovative projects and continuously
+            improve technical and problem-solving skills. Open to remote
+            opportunities and collaborative work environments.
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <h2 class="section-title">Professional Experience</h2>
+          <div class="highlight">
+            <div class="job-title">IT Specialist</div>
+            <div class="date">
+              Astana Medical University JSC — Astana, Kazakhstan | Jan 2023 –
+              Present
+            </div>
+            <div class="section-content">
+              <ul>
+                <li>
+                  Maintain and troubleshoot computer systems and network
+                  infrastructure of the university
+                </li>
+                <li>
+                  Deploy and configure Zabbix for monitoring performance and
+                  availability of IT resources
+                </li>
+                <li>
+                  Provide software and hardware support for staff and
+                  departments
+                </li>
+                <li>
+                  Install and test communication lines, ensure stable network
+                  operation
+                </li>
+                <li>
+                  Prepare and maintain presentation and conference equipment
+                </li>
+                <li>
+                  Assist users with setup, network issues, and technical
+                  consultations
+                </li>
+              </ul>
+              <br />
+              <strong>Key Achievements:</strong>
+              <ul>
+                <li>
+                  Deployed Zabbix monitoring system for over 100 network devices
+                </li>
+                <li>
+                  Improved network uptime and reduced troubleshooting time by
+                  30%
+                </li>
+                <li>
+                  Assisted in automation of task tracking and maintenance
+                  reporting
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <div class="highlight">
+            <div class="job-title">Distributed Image Processing System</div>
+            <div class="date">Master's Research Project (2025)</div>
+            <div class="section-content">
+              <p>
+                Designed and implemented a web-based distributed image
+                processing system for uploading, analyzing, and processing
+                images using a microservice architecture.
+              </p>
+              <ul>
+                <li>
+                  Built frontend with React + Vite, backend with Node.js
+                  (Express), and background workers in Python connected through
+                  Redis
+                </li>
+                <li>
+                  Implemented real-time task status updates with WebSocket and
+                  automatic PDF report generation
+                </li>
+                <li>
+                  Integrated PostgreSQL database for user data, job history, and
+                  file management
+                </li>
+              </ul>
+              <br />
+              <strong>Technologies:</strong>
+              <div class="skills-grid">
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">Redis</div>
+                <div class="skill-tag">Python (Pillow)</div>
+                <div class="skill-tag">PostgreSQL</div>
+                <div class="skill-tag">Docker</div>
+                <div class="skill-tag">PDFKit</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="highlight">
+            <div class="job-title">Master's Degree in Computer Science</div>
+            <div class="date">
+              Kazakh University of Technology and Business named after K.
+              Kulazhanov — Astana, Kazakhstan | 2023 – 2025
+            </div>
+          </div>
+          <div class="highlight">
+            <div class="job-title">
+              Bachelor's Degree in Information Systems
+            </div>
+            <div class="date">
+              Astana IT College — Astana, Kazakhstan | 2017 – 2021
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="language">
+          <h2 class="section-title">Languages</h2>
+          <ul class="language-list">
             <li>Kazakh: Native</li>
             <li>Russian: Native</li>
             <li>English: Pre-Intermediate</li>
-          </ol>
+          </ul>
+        </section>
+
+        <section class="section" id="info">
+          <h2 class="section-title">Additional Information</h2>
+          <div class="section-content">
+            <ul>
+              <li>Completed self-learning courses in JavaScript and React</li>
+              <li>
+                Interested in web development, distributed computing, and
+                automation tools
+              </li>
+              <li>Open to remote work and international collaboration</li>
+              <li>
+                Passionate about continuous learning, technology, and innovation
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
-      <div class="info">
-        <h4 id="info">Additional Information</h4>
-        <p>
-          Completed self-learning courses in JavaScript and React. Interested in
-          web development, distributed computing, and automation tools. <br> Open to
-          remote work and international collaboration. <br> Passionate about
-          continuous learning, technology, and innovation.
-        </p>
-      </div>
-    </footer>
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
